@@ -2,7 +2,7 @@
 
 ## **¿Qué es?**
 
-Aplicación orientada a la creación de automóviles, la cual facilite la creación y modificación de los mismos, mediante la implementación de patrones de diseño como _Builder_(Creacional) y _Decorator_(Estructural).
+Aplicación orientada a la creación de automóviles, la cual facilite la creación y modificación/adición de los mismos, mediante la implementación de patrones de diseño como _Builder_(Creacional) y _Decorator_(Estructural).
 
 ## **Necesidad buscada a resolver**
 
