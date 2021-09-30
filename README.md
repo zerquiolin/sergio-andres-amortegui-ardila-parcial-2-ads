@@ -35,7 +35,7 @@ Descargar _NodeJs_, esto lo podemos realizar mediante el link:
 
 Descargando la versión LTS (Long Term Support), ejecutando el instalador y siguiendo el procedimiento expresado en él.
 
-Para verificar que contamos con _NodeJs_ instalado en nuestro sistema, verificaremos la versión actual, por lo cual debemos ejecutar el siguiente comando en la consola:
+Para verificar que contamos con _NodeJs_ instalado en nuestro sistema, verificaremos la versión actual, por lo cual debemos ejecutar el siguiente comando en la terminal:
 
     node --version
 
@@ -45,12 +45,12 @@ El cual nos devolverá una respuesta similar a:
 
 En ese caso habremos completado la descarga de _NodeJs_!
 
-El siguiente paso es descargar _TypeScript_, esto lo podemos realizar mediante el siguiente comando en la consola:
+El siguiente paso es descargar _TypeScript_, esto lo podemos realizar mediante el siguiente comando en la terminal:
 
     npm install -g typescript
 
 Este comando nos descargara _TypeScript_ de manera global.
-Ahora, para verificar que contamos con _TypeScript_ instalado en nuestro sistema, verificaremos la versión actual, por lo cual debemos ejecutar el siguiente comando en la consola:
+Ahora, para verificar que contamos con _TypeScript_ instalado en nuestro sistema, verificaremos la versión actual, por lo cual debemos ejecutar el siguiente comando en la terminal:
 
     tsc --version
 
@@ -60,7 +60,7 @@ El cual nos devolverá una respuesta similar a:
 
 En este caso habremos completado la descarga de _TypeScript_!
 
-_Finalmente_, para ejecutar nuestra aplicación, debemos ingresar a la carpeta donde contamos con la raíz de nuestra aplicación desde la consola, una vez dentro de nuestra carpeta debemos ejecutar el siguiente comando:
+_Finalmente_, para ejecutar nuestra aplicación, debemos ingresar a la carpeta donde contamos con la raíz de nuestra aplicación desde la terminal, una vez dentro de nuestra carpeta debemos ejecutar el siguiente comando:
 
     tsc App.ts | node App.js
 
@@ -80,7 +80,7 @@ En caso de requerir ver el código fuente, dentro de la carpeta _"source"_, enco
 Aparte de las carpetas, contamos con 2 archivos adicionales en la raíz de la aplicación:
 
 1. **App.ts:**
-   - Dentro de este archivo encontraremos únicamente el llamado de la clase directora del patrón de diseño builder, la cual nos brinda la información correspondiente de los vehículos, para posteriormente ser mostrada por consola.
+   - Dentro de este archivo encontraremos únicamente el llamado de la clase directora del patrón de diseño builder, la cual nos brinda la información correspondiente de los vehículos, para posteriormente ser mostrada por terminal.
 2. **tsconfig.json:**
    - Dentro de este archivo encontraremos las configuraciones correspondientes tanto para funciones de typescript como de su trasnpilado.
 
