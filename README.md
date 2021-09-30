@@ -60,11 +60,11 @@ El cual nos devolverá una respuesta similar a:
 
 En este caso habremos completado la descarga de _TypeScript_!
 
-_Finalmente_, para ejecutar nuestra aplicación, debemos ingresar a la carpeta donde contamos con la raíz de nuestra aplicación desde la terminal, una vez dentro de nuestra carpeta debemos ejecutar el siguiente comando:
+_Finalmente_, para ejecutar nuestra aplicación, debemos ingresar a la carpeta donde contamos con la raíz de nuestra aplicación desde la terminal, una vez dentro de nuestra carpeta, debemos ejecutar el siguiente comando:
 
     tsc App.ts | node App.js
 
-El cual transpira nuestro archivo _App.ts_ a _App.js_, con el fin de poder ser ejecutado por medio de _NodeJs_.
+El cual transpilará nuestro archivo _App.ts_ a _App.js_, con el fin de poder ser ejecutado por medio de _NodeJs_.
 
 Una vez ejecutado el código nos encontraremos con la respuesta de **5** objetos(Vehículos), los cuales fueron creados por una clase _director_, la cual dirigió la estructura general del vehículo mediante las implementaciones del _patron builder_, el cual, dentro de su lógica interna implementa las adiciones/mejoras para los vehículos proporcionadas por el _patron decorator_.
 
@@ -106,4 +106,4 @@ Añadir o implementar nuevas funcionalidades a nuestro objeto sin la necesidad d
 
 ## Justificación de uso
 
-Gracias a que el patrón _Decorator_ nos brinda la posibilidad de decorar/añadir funcionalidades adicionales a un objeto en concreto en vez de tener que realizar la creación de un nuevo objeto, aporta al objetivo de actualizar los vehículos existentes asi como de la creación de vehículos modificados.
+Gracias a que el patrón _Decorator_ nos brinda la posibilidad de decorar/añadir funcionalidades adicionales a un objeto en concreto, en vez de tener que realizar la creación de un nuevo objeto, aporta al objetivo de actualizar los vehículos existentes asi como de la creación de vehículos personalizados.
